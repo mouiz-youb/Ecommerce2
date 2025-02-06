@@ -1,0 +1,11 @@
+.shad {
+  box-shadow: 0px 0px 4px 1px white;
+}
+.shad2 {
+  box-shadow: 0px 2px 3px 1px black;
+}
+.stroke {
+  background-color: black;
+  -webkit-background-clip: text;
+  -webkit-text-stroke: 3px transparent;
+}
