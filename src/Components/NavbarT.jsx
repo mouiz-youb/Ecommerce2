@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 import "../index.css";
 function NavbarT() {
   return (
-    <div className="flex justify-between items-center flex-row gap-5 w-screen p-2 lg:justify-evenly lg:text-2xl">
+    <div className="flex justify-between items-center flex-row gap-5 w-screen p-2 lg:justify-evenly lg:text-2xl p-2.5">
       <p>logo</p>
       <div className="flex justify-center items-center flex-row gap-6 ">
         <Link to="/">home</Link>

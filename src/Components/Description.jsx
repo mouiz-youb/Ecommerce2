@@ -17,10 +17,10 @@ function Description() {
           <img src={image3} alt="" className="rounded-2xl" />
         </div>
         <div className=" flex justify-between items-center flex-col gap-2.5 capitalize ">
-          <p className="text-4xl">ultimate</p>
-          <p className="text-8xl stroke text-white"> sale</p>
+          <p className="">ultimate</p>
+          <p className="stroke"> sale</p>
           <p className="text-[10px]">new collection</p>
-          <Link className="bg-black text-white rounded-[5px] text-[10px] h-[25px] shad2 w-[100px] flex justify-center items-center ">
+          <Link className="bg-black text-white rounded-[5px] text-[10px] shad2 flex justify-center items-center ">
             shop now
           </Link>
         </div>

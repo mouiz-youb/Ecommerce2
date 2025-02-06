@@ -7,5 +7,5 @@
 .stroke {
   background-color: black;
   -webkit-background-clip: text;
-  -webkit-text-stroke: 3px transparent;
+  /* -webkit-text-stroke: 1px transparent; */
 }
