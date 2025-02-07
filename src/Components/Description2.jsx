@@ -18,7 +18,7 @@ function Description2() {
     };
   }, []);
   return (
-    <div className="  grid grid-cols-1 grid-rows-4 gap-5  md:grid-cols-11 md:grid-rows-10 md:gap-5 ">
+    <div className="  grid grid-cols-1 grid-rows-3 gap-5  md:grid-cols-11 md:grid-rows-10 md:gap-5 ">
       <div className=" col-start-1 col-end-1 row-start-1 rounded-[15px] row-end-2 w-full flex justify-center items-center  md:col-start-2 md:col-end-5 md:row-start-1 md:row-end-10 md:rounded-2xl bg-gray-300  md:flex md:justify-end md:image">
         <img src={image1} alt="" className="" />
       </div>
