@@ -9,3 +9,6 @@
   -webkit-background-clip: text;
   -webkit-text-stroke: 3px transparent;
 }
+.poi {
+  cursor: pointer;
+}

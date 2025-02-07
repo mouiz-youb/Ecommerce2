@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 import Scwer from "./Scwer";
 function Timer() {
   return (
-    <div className="flex capitalize justify-between items-start p-2.5 flex-col row-start-1 row-end-2 border-2 md:col-start-1 md:col-end-3 md:row-start-1 md:row-end-1  ">
+    <div className="flex capitalize justify-between items-start p-2.5 flex-col row-start-1 row-end-2  md:col-start-1 md:col-end-3 md:row-start-1 md:row-end-1  ">
       <div className="flex justify-center items-start flex-col gap-2.5 p-2.5">
         <p className="text-3xl">Deals Of The Month</p>
         <p className="text-sm">
