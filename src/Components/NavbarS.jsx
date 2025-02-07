@@ -10,7 +10,8 @@ function NavbarS() {
       <p>Logo</p>
       <div>
         <TfiAlignJustify
-          className={Click ? `text-white z-10` : `text-black`}
+          // className={Click ? `text-white z-10` : `text-black`}
+
           onClick={handleClick}
         />
         {Click ? <Menu /> : null}

@@ -9,7 +9,6 @@ module.exports = {
 
       // Tablette : de 481px à 1024px
       md: { min: "481px", max: "1024px" },
-
       // Bureau (Desktop) : à partir de 1025px
       lg: { min: "1025px" },
     },

@@ -19,7 +19,7 @@ function Menu() {
       variants={variant}
       initial="hidden"
       animate="show"
-      className="flex justify-center items-center flex-col gap-5 w-[50%] h-[300px] bg-gray-600  absolute top-0 -z-10 right-0"
+      className="flex justify-center items-center flex-col gap-5 w-[50%] h-[300px] bg-gray-600  absolute top-[75%] -z-10 right-0"
     >
       <div className="flex justify-center items-center flex-col text-white capitalize gap-2">
         <Link to="/">home</Link>
