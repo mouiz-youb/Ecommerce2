@@ -39,3 +39,10 @@
     transform-origin: bottom;
   }
 }
+@media (min-width: 1024px) {
+  .after::after {
+    width: 850px;
+    height: 860px;
+    transform: rotate(90deg) skewY(27deg) translatex(-60px);
+  }
+}
