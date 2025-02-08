@@ -3,6 +3,7 @@ import Description from "../Components/Description";
 import Description2 from "../Components/Description2";
 import SliderSection from "../Components/SliderSection";
 import NewArrivals from "../Components/NewArrivals";
+import PeakyBlinders from "../Components/PeakyBlinders";
 function Home() {
   return (
     <div className="flex justify-center items-center flex-col gap-5">
@@ -10,6 +11,7 @@ function Home() {
       <Description2 />
       <SliderSection />
       <NewArrivals />
+      <PeakyBlinders />
     </div>
   );
 }

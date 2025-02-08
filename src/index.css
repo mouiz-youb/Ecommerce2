@@ -12,3 +12,30 @@
 .poi {
   cursor: pointer;
 }
+.after::after {
+  content: "";
+  position: absolute;
+  bottom: 0%;
+  left: 0%;
+  background-color: #dadada;
+  z-index: -2;
+  width: 850px;
+  height: 663px;
+  border: 1px solid;
+  transform: rotate(10deg) skewy(-40deg) translateY(25px);
+}
+/* Add this to your CSS file */
+/* .after2::after {
+  @apply absolute bottom-0 left-0 bg-red-500 -z-20 border;
+  content: "";
+  width: 850px;
+  height: 663px;
+  transform: rotate(10deg) skewY(-40deg) translateY(25px);
+} */
+@media (min-width: 768px) {
+  .after::after {
+    transform: rotate(30deg) skewy(35deg);
+    background-color: #dadada;
+    transform-origin: bottom;
+  }
+}
