@@ -5,6 +5,7 @@ import SliderSection from "../Components/SliderSection";
 import NewArrivals from "../Components/NewArrivals";
 import PeakyBlinders from "../Components/PeakyBlinders";
 import PubSection from "../Components/PubSection";
+import Galory from "../Components/Galory";
 function Home() {
   return (
     <div className="flex justify-center items-center flex-col gap-5">
@@ -14,6 +15,7 @@ function Home() {
       <NewArrivals />
       <PeakyBlinders />
       <PubSection />
+      <Galory />
     </div>
   );
 }
