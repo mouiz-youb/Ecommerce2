@@ -7,6 +7,7 @@ import imageP4 from "../images/imageP4.svg";
 import imageP5 from "../images/imageP5.svg";
 import imageP6 from "../images/imageP6.svg";
 import imageP7 from "../images/imageP7.svg";
+// import varia
 function PerfectImageGalery() {
   const images = [
     imageP1,
@@ -46,6 +47,7 @@ function PerfectImageGalery() {
       {images.map((image, index) => (
         <motion.img
           src={image}
+          key={index}
           className={
             index % 2 === 0
               ? "w-[320px] md:w-1/4 lg:w-1/7 xl:w-1/4" // 320px for even indices (1, 3, 5, 7)

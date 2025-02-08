@@ -46,3 +46,23 @@
     transform: rotate(90deg) skewY(27deg) translatex(-60px);
   }
 }
+/* .grid {
+  display: grid;
+  width: 100vw;
+  height: 100px;
+  grid-template-columns: repeat(10, 1fr);
+  grid-template-rows: 1fr;
+  grid-template-areas: " logo logo . link link link link link . btn ";
+}
+.grid1 {
+  grid-area: logo;
+  border: 1px solid;
+}
+.grid2 {
+  grid-area: link;
+  border: 1px solid;
+}
+.grid3 {
+  grid-area: btn;
+  border: 1px solid;
+} */

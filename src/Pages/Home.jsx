@@ -6,6 +6,8 @@ import NewArrivals from "../Components/NewArrivals";
 import PeakyBlinders from "../Components/PeakyBlinders";
 import PubSection from "../Components/PubSection";
 import Galory from "../Components/Galory";
+import "../index.css";
+import Customers from "../Components/Customers";
 function Home() {
   return (
     <div className="flex justify-center items-center flex-col gap-5">
@@ -16,6 +18,7 @@ function Home() {
       <PeakyBlinders />
       <PubSection />
       <Galory />
+      {/* <Customers /> */}
     </div>
   );
 }
