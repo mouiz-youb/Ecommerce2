@@ -1,8 +1,16 @@
 import React from "react";
 import { IoIosStar } from "react-icons/io";
+import { motion } from "framer-motion";
+import { fadeIn } from "../Hook/variants.js";
 function Cart(props) {
   return (
-    <div className="flex justify-center items-center flex-col gap-5 shadow-2xl rounded-2xl p-3">
+    <motion.div
+      variants={fadeIn("right", 1)}
+      initial="hidden"
+      whileInView={"show"}
+      viewport={{ once: false, amount: 0.9 }}
+      className="flex justify-center items-center flex-col gap-5 shadow-2xl rounded-2xl p-3"
+    >
       <div>
         <img src={props.image} alt="" />
       </div>
@@ -26,7 +34,7 @@ function Cart(props) {
         <p>$95.50</p>
         <p className="text-red-400">Almost Sold Out</p>
       </div>
-    </div>
+    </motion.div>
   );
 }
 

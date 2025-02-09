@@ -1,13 +1,20 @@
 import React, { useState } from "react";
 import Button from "./Button";
-
+import { motion } from "framer-motion";
+import { fadeIn } from "../Hook/variants.js";
 function ButtonSection() {
   const [activeButton, setActiveButton] = useState(null);
   const handleButtonClick = (content) => {
     setActiveButton(content);
   };
   return (
-    <div className="flex flex-wrap justify-center gap-2.5 p-2.5 capitalize">
+    <motion.div
+      variants={fadeIn("top", 1)}
+      initial="hidden"
+      whileInView={"show"}
+      viewport={{ once: false, amount: 0.9 }}
+      className="flex flex-wrap justify-center gap-2.5 p-2.5 capitalize"
+    >
       <Button
         content="man fashion "
         isActive={activeButton === "man fashion"}
@@ -33,7 +40,7 @@ function ButtonSection() {
         isActive={activeButton === "discount details"}
         onClick={() => handleButtonClick("discount details")}
       />
-    </div>
+    </motion.div>
   );
 }
 

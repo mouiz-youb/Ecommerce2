@@ -1,9 +1,17 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import Scwer from "./Scwer";
+import { motion } from "framer-motion";
+import { fadeIn } from "../Hook/variants.js";
 function Timer() {
   return (
-    <div className="flex capitalize justify-between items-start p-2.5 flex-col row-start-1 row-end-2  md:col-start-1 md:col-end-3 md:row-start-1 md:row-end-1  ">
+    <motion.div
+      variants={fadeIn("right", 1)}
+      initial="hidden"
+      whileInView={"show"}
+      viewport={{ once: false, amount: 0.9 }}
+      className="flex capitalize justify-between items-start p-2.5 flex-col row-start-1 row-end-2  md:col-start-1 md:col-end-3 md:row-start-1 md:row-end-1  "
+    >
       <div className="flex justify-center items-start flex-col gap-2.5 p-2.5">
         <p className="text-3xl">Deals Of The Month</p>
         <p className="text-sm">
@@ -22,7 +30,7 @@ function Timer() {
         <Scwer text="mins" nmb="05" />
         <Scwer text="sc" nmb="30" />
       </div>
-    </div>
+    </motion.div>
   );
 }
 
