@@ -4,13 +4,7 @@ import { motion } from "framer-motion";
 import { fadeIn } from "../Hook/variants.js";
 function Cart(props) {
   return (
-    <motion.div
-      variants={fadeIn("right", 1)}
-      initial="hidden"
-      whileInView={"show"}
-      viewport={{ once: false, amount: 0.9 }}
-      className="flex justify-center items-center flex-col gap-5 shadow-2xl rounded-2xl p-3"
-    >
+    <motion.div className="flex justify-center items-center flex-col gap-5 shadow-2xl rounded-2xl p-3">
       <div>
         <img src={props.image} alt="" />
       </div>

@@ -4,9 +4,11 @@ import icon1 from "../images/icon1.svg";
 import icon2 from "../images/icon2.svg";
 import icon3 from "../images/icon3.svg";
 import icon4 from "../images/icon4.svg";
+import { fadeIn } from "../Hook/variants";
+import { motion } from "framer-motion";
 function PubSection() {
   return (
-    <div className="flex justify-start ml-[45px] rounded-2xl items-center flex-wrap p-5 gap-8 flex-row m-5  w-full bg-white shadow-2xl md:justify-evenly">
+    <motion.div className="flex justify-start ml-[45px] rounded-2xl items-center flex-wrap p-5 gap-8 flex-row m-5  w-full bg-white shadow-2xl md:justify-evenly">
       <PubCart
         content1="High Quality"
         content2="crafted from top materials"
@@ -27,7 +29,7 @@ function PubSection() {
         content2=" Dedicated support"
         icon={icon4}
       />
-    </div>
+    </motion.div>
   );
 }
 

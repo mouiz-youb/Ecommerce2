@@ -8,13 +8,7 @@ function ButtonSection() {
     setActiveButton(content);
   };
   return (
-    <motion.div
-      variants={fadeIn("top", 1)}
-      initial="hidden"
-      whileInView={"show"}
-      viewport={{ once: false, amount: 0.9 }}
-      className="flex flex-wrap justify-center gap-2.5 p-2.5 capitalize"
-    >
+    <motion.div className="flex flex-wrap justify-center gap-2.5 p-2.5 capitalize">
       <Button
         content="man fashion "
         isActive={activeButton === "man fashion"}

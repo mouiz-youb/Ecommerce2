@@ -48,13 +48,7 @@ function Caroucel() {
     },
   };
   return (
-    <motion.div
-      variants={fadeIn("left", 1)}
-      initial="hidden"
-      whileInView={"show"}
-      viewport={{ once: false, amount: 0.9 }}
-      className=" flex  justify-center items-center flex-col gap-2 row-start-2 row-end-3 md:col-start-3 md:col-end-6 md:row-start-1 md:row-end-1 "
-    >
+    <motion.div className=" flex  justify-center items-center flex-col gap-2 row-start-2 row-end-3 md:col-start-3 md:col-end-6 md:row-start-1 md:row-end-1 ">
       <div className="flex justify-center items-center flex-col gap-2.5 relative h-full scale-[0.5] w-full">
         {images.map((image, index) => (
           <motion.img

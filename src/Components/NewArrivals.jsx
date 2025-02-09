@@ -7,13 +7,7 @@ import { fadeIn } from "../Hook/variants.js";
 function NewArrivals() {
   return (
     <div className="flex justify-center items-center flex-col gap-2.5 p-2 ">
-      <motion.div
-        variants={fadeIn("top", 1)}
-        initial="hidden"
-        whileInView={"show"}
-        viewport={{ once: false, amount: 0.9 }}
-        className="flex justify-center items-center flex-col gap-2.5  p-2.5"
-      >
+      <motion.div className="flex justify-center items-center flex-col gap-2.5  p-2.5">
         <h1 className="text-2xl">New Arrivals</h1>
         <p className="text-[10px] text-center">
           Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatem

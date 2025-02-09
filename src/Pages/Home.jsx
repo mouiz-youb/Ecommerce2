@@ -18,7 +18,7 @@ function Home() {
       <PeakyBlinders />
       <PubSection />
       <Galory />
-      {/* <Customers /> */}
+      <Customers />
     </div>
   );
 }
