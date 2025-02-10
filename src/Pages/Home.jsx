@@ -8,6 +8,7 @@ import PubSection from "../Components/PubSection";
 import Galory from "../Components/Galory";
 import "../index.css";
 import Customers from "../Components/Customers";
+import Subscreption from "../Components/Subscreption";
 function Home() {
   return (
     <div className="flex justify-center items-center flex-col gap-5">
@@ -19,6 +20,7 @@ function Home() {
       <PubSection />
       <Galory />
       <Customers />
+      <Subscreption />
     </div>
   );
 }
