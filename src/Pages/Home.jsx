@@ -9,6 +9,7 @@ import Galory from "../Components/Galory";
 import "../index.css";
 import Customers from "../Components/Customers";
 import Subscreption from "../Components/Subscreption";
+import Footer from "../Components/Footer";
 function Home() {
   return (
     <div className="flex justify-center items-center flex-col gap-5">
@@ -21,6 +22,7 @@ function Home() {
       <Galory />
       <Customers />
       <Subscreption />
+      <Footer />
     </div>
   );
 }
